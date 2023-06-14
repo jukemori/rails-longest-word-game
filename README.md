@@ -1,24 +1,27 @@
-# README
+# Longest Word Game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Longest Word Game is a challenging and educational word game where players are tasked with finding valid English words from a set of given letters. The game tests players' vocabulary skills and ability to form words using the provided letters.
 
-Things you may want to cover:
 
-* Ruby version
+<img width="400" alt="Screen Shot 2021-06-18 at 14 19 13" src="app/assets/images/Screenshot 2023-06-13 at 21.09.13.png">
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## Getting Started
+### Setup
 
-* Database initialization
+Install gems
+```
+bundle install
+```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### Run a server
+```
+rails s
+```
 
-* ...
+## Built With
+- [Rails 7](https://guides.rubyonrails.org/) - Backend / Front-end
+- [Bootstrap](https://getbootstrap.com/) — Styling
