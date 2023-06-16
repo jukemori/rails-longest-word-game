@@ -14,10 +14,18 @@
  *= require_self
  */
 
+
  @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+html body {
+  background-color: black;
+}
+
 .container {
   justify-content: center;
+  background-color: black;
+
 }
+
 
 
 body {
@@ -29,6 +37,7 @@ body {
 h1 {
   text-align: center;
   font-weight: 400;
+  color: white;
 }
 
 .letters {
@@ -49,4 +58,11 @@ h1 {
 
 .form-prefix {
   margin-top: 2em;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 3rem 30% !important;
+  }
 }
